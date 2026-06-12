@@ -83,7 +83,7 @@ const SECTORS = [
     wedge: "Buyer-side delivery is the open flank: dealers buying online need cars moved now. Plug into platform buyer workflows or capture dealers directly post-sale.",
     dynamics: [
       "Cox owns Central Dispatch and Ready Logistics — at Manheim you're competing with the house. Differentiate on service tiers they won't touch.",
-      "Digital-first platforms (ACV, OPENLANE, EBlock) are structurally early adopters — transport is part of their product promise, not an afterthought.",
+      "Digital-first platforms (ACV, OPENLANE, EBlock) are structurally early adopters, but several run transport in-house. ACV Transportation fields a 3,000+ carrier network, so sell capacity into their board or go direct to dealers, don't pitch a platform.",
       "Salvage (Copart, IAA) is its own world: inop vehicles, specialized equipment, CAT events create massive surge demand.",
       "Catastrophe response (hail, flood, hurricane) is a recurring surge market — being on the pre-approved surge list prints money.",
     ],
@@ -222,8 +222,8 @@ const STAKEHOLDERS = [
 /* ============ TARGET BOARD ============ */
 const TARGETS = [
   { name: "ACV Auctions", sector: "auction", type: "Digital wholesale marketplace", adopter: 5, impact: 4,
-    why: "Tech-DNA company; transport is a product feature. Ships integrations fast and publicly touts logistics partners.",
-    wedge: "Buyer-side delivery SLA + API integration pitch to marketplace/product team." },
+    why: "Tech-DNA marketplace, but transport is already theirs: ACV Transportation runs a 3,000+ carrier network with real-time firm quotes and in-app ETA, now serving off-platform vehicles too. Selling them a delivery platform competes with the house.",
+    wedge: "Don't sell the platform. Join their carrier load board (acvauctions.com/haul) and win the lanes their network runs thin: inop/salvage, enclosed, rural, surge. Or capture buying dealers direct post-sale." },
   { name: "OPENLANE", sector: "auction", type: "Digital marketplace (ex-ADESA/KAR digital)", adopter: 5, impact: 4,
     why: "All-digital pivot means every sold unit needs transport with no physical lanes. Actively building logistics network.",
     wedge: "Coverage in underserved lanes; dealer-delivery NPS angle." },
